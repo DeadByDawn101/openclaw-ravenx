@@ -34,7 +34,8 @@ const PERPLEXITY_KEY_PREFIXES = ["pplx-"];
 const OPENROUTER_KEY_PREFIXES = ["sk-or-"];
 
 const XAI_API_ENDPOINT = "https://api.x.ai/v1/responses";
-const DEFAULT_GROK_MODEL = "grok-4-1-fast";
+// RavenX patch: use full grok-4 (SuperGrok) for web search
+const DEFAULT_GROK_MODEL = "grok-4";
 const DEFAULT_KIMI_BASE_URL = "https://api.moonshot.ai/v1";
 const DEFAULT_KIMI_MODEL = "moonshot-v1-128k";
 const KIMI_WEB_SEARCH_TOOL = {
